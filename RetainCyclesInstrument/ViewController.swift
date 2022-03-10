@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 }
 
 class Service {
-    var redController: RedController?
+    weak var redController: RedController?
 }
 
 class RedController: UITableViewController {
